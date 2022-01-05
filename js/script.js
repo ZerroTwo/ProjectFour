@@ -33,7 +33,7 @@ window.onload = function () {
 
       that.cards = document.querySelectorAll(propors.fieldCards + ' ' + propors.cards);
       that.sliderPoint = document.querySelector(propors.fieldCards + ' ' + propors.sliderPoint);
-      console.log(that.sliderPoint)
+     
       that.addClassSlide = propors.addClassSlide;
       that.addClasssCards = propors.addClasssCards;
 
@@ -66,7 +66,7 @@ window.onload = function () {
 
 
       for (let i = 0; that.cards.length > i; i++) {
-         console.log(that.cards.length)
+        
          that.createPointValue(i);
       }
 
